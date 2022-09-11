@@ -14,8 +14,8 @@ body {
 .footer {
     display: flex;
     flex-direction: row;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .header {
@@ -106,27 +106,55 @@ body {
 .info-images-container {
     display: flex;
     flex-direction: row;
-    gap: 32px;
-    margin-left: 64px;
-    margin-right: 64px;
+    gap: 56px;
+    margin-left: 3%;
+    margin-right: 3%;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .info-image {
     display: flex;
     flex-direction: column;
     gap: 6px;
-    width: 100px;
+    width: 125px;
+    align-items: center;
 }
 
 .info-image .image {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     border: 3px solid #3882F6;
-    border-radius: 15%;
+    border-radius: 10%;
 }
 
 .info-image .image-text {
     text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    background: #E5E7EB;
+    align-items: center;
+    padding-top: 132px;
+    padding-bottom: 132px;
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    margin-left: 92px;
+    margin-right: 92px;
+}
+
+.quote-author {
+    align-self: flex-end;
+    margin-left: 92px;
+    margin-right: 92px;
+    font-weight: 900;
+    font-size: 24px;
 }
