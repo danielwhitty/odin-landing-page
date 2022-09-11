@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+/* This section will be used for all "main" containers on the page */
+.header,
+.hero-container,
+.info-container,
+.quote-container,
+.call-to-action,
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header {
+    background: #1f2937;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header-main {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-secondary {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.header-secondary ul {
+    color: #E5E7EB;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding-left: 0px;
+}
+
+.hero-container {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 92px;
+    padding-bottom: 92px;
+}
+
+.hero-text {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-container .hero-heading {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-container .hero-text-content {
+    color: #E5E7EB;
+}
+
+.hero-container button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 8px;
+    width: fit-content;   
+    padding: 10px;
+}
+
+.hero-image {
+    flex: 1 1 0;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
