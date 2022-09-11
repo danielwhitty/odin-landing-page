@@ -36,12 +36,16 @@ body {
     align-items: center;
 }
 .header-secondary ul {
-    color: #E5E7EB;
     font-size: 18px;
     list-style-type: none;
     display: flex;
     gap: 16px;
     padding-left: 0px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
 
 .hero-container {
